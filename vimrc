@@ -1,3 +1,4 @@
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 imap jk <Esc>
@@ -20,3 +21,11 @@ set ruler
 set laststatus=0
 set showmode
 set showcmd
+set nobackup
+set nowritebackup
+set noswapfile
+set directory=/tmp
+set cursorline
+set background=dark
+set list
+set listchars=tab:▸…,eol:¬,trail:•
