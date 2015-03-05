@@ -28,4 +28,3 @@ set directory=/tmp
 set cursorline
 set background=dark
 set list
-set listchars=tab:▸…,eol:¬,trail:•
