@@ -1,0 +1,15 @@
+# Decrease volume on pressing Super-minus
+ "sh $HOME/.bin/sound.sh down"
+    m:0x50 + c:20
+       Mod2+Mod4 + minus
+
+# Increase volume on pressing Super-equal
+ "sh $HOME/.bin/sound.sh up"
+    m:0x50 + c:21
+    Mod2+Mod4 + equal
+
+# Mute on pressing Ctrl-0
+ "sh $HOME/.bin/sound.sh mute"
+    m:0x14 + c:19
+    Control+Mod2 + 0
+

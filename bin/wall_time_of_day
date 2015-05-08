@@ -1,0 +1,9 @@
+imagepath="/path/to/imagefolder";
+while :
+do
+    if echo 0$(expr $(date +%H) / 3).png != cat ~/.fehbg | egrep '[0-9]{2}.png'; then
+        feh --bg-fill $imagepath/0$(expr $(date +%H) / 3).png;
+    fi
+    sleep 5
+done
+
