@@ -1,6 +1,3 @@
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
 imap jk <Esc>
 let mapleader=","
 nnoremap <leader><space> :nohlsearch<CR>
