@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+ rofi -show run -font "Menlo 10" -fg "#222" -bg "#000" -bc "#000" -hlfg "#fff" -hlbg "#000" -o 85
