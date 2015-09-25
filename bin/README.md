@@ -11,7 +11,7 @@
 * [averagesecurityguy](https://github.com/averagesecurityguy/scripts) - Scripts I use during pentest engagements
 * [leebaird](https://github.com/leebaird/discover) - For use with Kali Linux. Custom bash scripts used to automate various pentesting tasks
 * [0x90](https://github.com/0x90/kali-scripts) - Some useful scripts for KaliLinux
-* [iCHAIT](ttps://github.com/iCHAIT/Python-Scripts) - My Python scripts
+* [iCHAIT](https://github.com/iCHAIT/Python-Scripts) - My Python scripts
 * [nixers](https://github.com/nixers-projects/scripts) - A collection of scripts by UnixHub guys
 * [gstk](https://github.com/gstk/Color-Scripts) - User contributed color scripts
 * [ubuntufag](https://github.com/ubuntufag/scripts) - Contains the few scripts I have
