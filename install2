@@ -1,0 +1,20 @@
+#!/bin/bash
+function get_dwm(){
+    wget -P $HOME/ http://dl.suckless.org/dwm/dwm-6.0.tar.gz && tar xvf $HOME/dwm-6.0.tar.gz -C $HOME/
+}
+function get_patches(){
+    wget -P $HOME/dwm-6.0/ http://dwm.suckless.org/patches/dwm-6.0-bstack.diff && wget -P $HOME/dwm-6.0/ http://dwm.suckless.org/patches/dwm-6.0-push.diff
+}
+function patch_dwm(){
+    patch -p1 < $HOME/dwm-6.0/dwm-6.0-bstack.diff -d $HOME/dwm-6.0/ && patch -p1 < $HOME/dwm-6.0/dwm-6.0-push.diff -d $HOME/dwm-6.0/
+}
+
+function install_dwm(){
+    cp dwm/config.h $HOME/dwm-6.0/
+    cd $HOME/dwm-6.0/ && make install 
+    pwd && sudo make clean install
+}
+get_dwm
+get_patches
+patch_dwm
+install_dwm

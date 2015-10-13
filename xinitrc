@@ -6,12 +6,13 @@
 #compton --config ~/.compton.conf
 
 #/usr/bin/VBoxClient-all
-volnoti &
+#xmodmap $HOME/.xmodmap-arch
+#3volnoti &
 
 xrdb merge ~/.Xresources &
 
-xbindkeys &
+#xbindkeys &
 
-rofi -key-run Alt+F2 &
+#rofi -key-run Alt+F2 &
 #exec enlightenment_start
 exec dwm

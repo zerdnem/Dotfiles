@@ -1,4 +1,2 @@
-#include ".colors/copland"
-URxvt.font                   :  xft:Tamsyn:pixelsize=14:autohint=true
-URxvt.boldFont               :  xft:Tamsyn:pixelsize=14:autohint=true
+#include ".colors/hybrid"
 URxvt.scrollBar              :  false

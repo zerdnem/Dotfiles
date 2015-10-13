@@ -3,7 +3,7 @@ compinit
 autoload -U promptinit
 promptinit
 prompt walters
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH=~/bin:$PATH
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 #history
@@ -15,7 +15,7 @@ setopt share_history
 setopt HIST_IGNORE_DUPS
 function history-all { history -E 1  }
 source /usr/bin/virtualenvwrapper.sh
-export VIRTUALENVWRAPPER_PYTHON=/home/jjan/bin/python
+#export VIRTUALENVWRAPPER_PYTHON=$HOME/bin/python
 # Colored ManPages
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
@@ -30,37 +30,10 @@ alias brb='systemctl reboot'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-source $HOME/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
-# bind UP and DOWN arrow keys
-zmodload zsh/terminfo
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
+#export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+#source ~/.rvm/scripts/rvm
 
-## Setup zsh-autosuggestions
-#source $HOME/.zsh/zsh-autosuggestions/autosuggestions.zsh
-## Enable autosuggestions automatically
-#zle-line-init() {
-    #zle autosuggest-start
-#}
-#zle -N zle-line-init
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-source ~/.rvm/scripts/rvm
 . ~/.zsh/z/z.sh
-
-# Debug mode
-DEBUG=0
-function debug {
-    [[ $DEBUG -lt 0 ]] && echo "\033[1;33mDEBUG:\033[0m zsh: $1"
-}
-function error {
-    echo "\033[1;31mERROR:\033[0m zsh: $1"
-}
-
-for r in $HOME/.zsh/*.zsh; do
-    debug "sourcing $r"
-    source $r
-done
 
 [[ -s "$HOME/.local/share/marker/marker.sh"  ]] && source "$HOME/.local/share/marker/marker.sh"
 
