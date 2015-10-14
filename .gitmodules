@@ -10,3 +10,6 @@
 [submodule "bin/fu"]
 	path = bin/fu
 	url = https://github.com/samirahmed/fu
+[submodule "zsh/pure"]
+	path = zsh/pure
+	url = https://github.com/sindresorhus/pure
