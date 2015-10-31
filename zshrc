@@ -7,13 +7,13 @@ source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH=~/bin:$PATH
 #PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 #history
-HISTFILE=$HOME/.zsh-history
-HISTSIZE=3000
-SAVEHIST=10000 # nice for logging
-setopt extended_history
-setopt share_history
+#HISTFILE=$HOME/.zsh-history
+#HISTSIZE=3000
+#SAVEHIST=10000 # nice for logging
+#setopt extended_history
+#setopt share_history
 setopt HIST_IGNORE_DUPS
-function history-all { history -E 1  }
+#function history-all { history -E 1  }
 #source /usr/bin/virtualenvwrapper.sh
 #export VIRTUALENVWRAPPER_PYTHON=$HOME/bin/python
 # Colored ManPages
