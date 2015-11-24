@@ -2,7 +2,7 @@ autoload -U compinit
 compinit
 autoload -U promptinit
 promptinit
-prompt pure
+#prompt pure
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH=~/bin:$PATH
 #PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
