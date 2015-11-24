@@ -1,5 +1,6 @@
 ##Packages
 * evil
+* evil-leader
 * evil-surround
 * evil-nerdcommenter
 * emmet
