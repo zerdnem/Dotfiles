@@ -3,4 +3,4 @@
 
 (load-config "ui.el")
 (load-config "packages.el")
-(load-config "keybind.el")
+(load-theme 'base16-isotope-dark)
