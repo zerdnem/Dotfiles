@@ -5,6 +5,7 @@
 * evil-nerdcommenter
 * emmet
 * base16
+* autopair
 
 ##Screenshot
 ![emacs](https://raw.githubusercontent.com/zerdnem/Dotfiles/master/emacs.d/emacs.png)
