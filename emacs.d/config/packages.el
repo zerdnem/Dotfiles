@@ -13,3 +13,5 @@
 (require 'emmet-mode)
 (global-evil-leader-mode)
 (evil-leader/set-key "," 'find-file)
+(require 'autopair)
+(autopair-global-mode)
