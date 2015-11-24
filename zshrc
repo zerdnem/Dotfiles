@@ -1,15 +1,16 @@
 autoload -U compinit
 compinit
+fpath=( "$HOME/.zfunctions" $fpath )
 autoload -U promptinit
 promptinit
-#prompt pure
+prompt pure
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH=~/bin:$PATH
 #PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 #history
-#HISTFILE=$HOME/.zsh-history
-#HISTSIZE=3000
-#SAVEHIST=10000 # nice for logging
+HISTFILE=$HOME/.zsh-history
+HISTSIZE=3000
+SAVEHIST=10000 # nice for logging
 #setopt extended_history
 #setopt share_history
 setopt HIST_IGNORE_DUPS
@@ -27,7 +28,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 #alias
 alias bye='systemctl poweroff'
 alias brb='systemctl reboot'
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 #export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
