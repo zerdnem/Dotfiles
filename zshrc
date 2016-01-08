@@ -10,7 +10,7 @@ export PATH=~/bin:$PATH
 #history
 HISTFILE=$HOME/.zsh-history
 HISTSIZE=3000
-SAVEHIST=10000 # nice for logging
+SAVEHIST=1000 # nice for logging
 #setopt extended_history
 #setopt share_history
 setopt HIST_IGNORE_DUPS
