@@ -3,7 +3,9 @@
 - link:
     ~/.zsh: zsh/
     ~/.zshrc: zshrc
-    ~/.emacs.d: emacs.d/
+    ~/.emacs.d/config: emacs.d/config/
+    ~/.emacs.d/init.el: emacs.d/init.el
+    ~/.emacs.d/Cask: emacs.d/Cask
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

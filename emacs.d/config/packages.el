@@ -6,7 +6,6 @@
 (package-initialize)
 (require 'evil)
 (evil-mode 1)
-(evil-leader/set-key "e" 'find-file)
 (require 'evil-surround)
 (global-evil-surround-mode 1)
 (evilnc-default-hotkeys)

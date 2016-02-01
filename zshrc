@@ -3,6 +3,7 @@ compinit
 fpath=( "$HOME/.zfunctions" $fpath )
 autoload -U promptinit
 promptinit
+prompt redhat
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH=~/bin:$PATH
 #PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
@@ -16,6 +17,7 @@ setopt HIST_IGNORE_DUPS
 #source /usr/bin/virtualenvwrapper.sh
 #export VIRTUALENVWRAPPER_PYTHON=$HOME/bin/python
 alias ls='ls -G'
+alias grep='grep --color=auto'
 # Colored ManPages
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
