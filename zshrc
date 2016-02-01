@@ -3,20 +3,19 @@ compinit
 fpath=( "$HOME/.zfunctions" $fpath )
 autoload -U promptinit
 promptinit
-prompt pure
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH=~/bin:$PATH
 #PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 #history
 HISTFILE=$HOME/.zsh-history
-HISTSIZE=3000
-SAVEHIST=1000 # nice for logging
+HISTSIZE=1000
 #setopt extended_history
 #setopt share_history
 setopt HIST_IGNORE_DUPS
 #function history-all { history -E 1  }
 #source /usr/bin/virtualenvwrapper.sh
 #export VIRTUALENVWRAPPER_PYTHON=$HOME/bin/python
+alias ls='ls -G'
 # Colored ManPages
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
@@ -25,11 +24,6 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
-#alias
-alias bye='systemctl poweroff'
-alias brb='systemctl reboot'
-#alias ls='ls --color=auto'
-alias grep='grep --color=auto'
 
 #export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 #source ~/.rvm/scripts/rvm

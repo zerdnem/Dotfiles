@@ -3,5 +3,4 @@
 
 (load-config "ui.el")
 (load-config "packages.el")
-(load-theme 'base16-isotope-dark t)
 (global-linum-mode 1)
