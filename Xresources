@@ -1,2 +1,15 @@
-#include ".colors/hybrid"
-URxvt.scrollBar              :  false
+#include ".colors/bluemagick.Xcolors"
+!urxvt*depth: 32
+!urxvt*background: rgba:3333/3333/3333/e3e3
+URxvt.scrollBar: false
+URxvt.font: xft:monaco:size=10
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt.perl-ext-common: ...,font-size
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
