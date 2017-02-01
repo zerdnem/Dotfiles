@@ -1,10 +1,15 @@
 ## Important programs that I use daily
+* [clipmenu](https://github.com/cdown/clipmenu) - Clipboard management using dmenu 
+* [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) - i3lock script that takes a screenshot of the desktop
 * [fu](https://github.com/samirahmed/fu) - An easy way to query commandlinefu.com from the commandline
 * [marker](https://github.com/pindexis/marker) - Bookmark your terminal commands
 * [uguush](https://github.com/jschx/uguush) - Command-line uploader for uguu.se and others
 * [bro](https://github.com/hubsmoke/bro) - A CLI to interact with bropages.org
 * [plowshare](https://github.com/mcrapet/plowshare) - Command-line tool and engine for managing sharing websites
 * [dropbox-uploader](https://github.com/andreafabrizi/Dropbox-Uploader) - Dropbox Uploader is a BASH script which can be used to upload, download, list or delete files from Dropbox
+* xbindkeys
+* pamixer
+* scrot
  
 ## Small nifty scripts
 * [nodiscc](https://github.com/nodiscc/scriptz) - misc scripts/hacks/doc/tools
