@@ -13,3 +13,23 @@
     m:0x14 + c:19
     Control+Mod2 + 0
 
+"i3lock-fancy"
+    Mod4 + slash
+
+"scrot -q 100"
+    Print
+
+"pamixer --increase 5"
+    Mod4 +  equal
+
+"pamixer --decrease 5"
+    Mod4 + minus
+
+"pamixer -m"
+    Shift+Mod4 + equal
+
+"pamixer -u"
+    Shift+Mod4  + minus
+
+"clipmenu"
+    Mod4 + c
