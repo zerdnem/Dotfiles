@@ -1,6 +1,7 @@
 ## Important programs that I use daily
 * [clipmenu](https://github.com/cdown/clipmenu) - Clipboard management using dmenu 
 * [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) - i3lock script that takes a screenshot of the desktop
+* [volnoti](https://github.com/davidbrazdil/volnoti) - Lightweight volume notification for Linux 
 * [fu](https://github.com/samirahmed/fu) - An easy way to query commandlinefu.com from the commandline
 * [marker](https://github.com/pindexis/marker) - Bookmark your terminal commands
 * [uguush](https://github.com/jschx/uguush) - Command-line uploader for uguu.se and others
