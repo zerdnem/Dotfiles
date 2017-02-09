@@ -11,6 +11,8 @@
 (setq linum-format "%d ")
 (show-paren-mode 1)
 (require 'linum)
+(global-linum-mode 1)
+(global-set-key [(control x) (k)] 'kill-this-buffer)
 (defun linum-update-window-scale-fix (win)
   "fix linum for scaled text"
   (set-window-margins win
